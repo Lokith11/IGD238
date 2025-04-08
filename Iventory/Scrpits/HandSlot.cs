@@ -29,7 +29,7 @@ public class HandSlot : IventorySlot
             }
             else
             {
-                Debug.LogWarning("ไม่พบ Hold Area ใน PlayerController, สร้างจุดจับใหม่");
+                Debug.LogWarning("ไม่พบ Hold Area ใน PlayerController");
                 handTransform = new GameObject("DefaultHandTransform").transform;
                 handTransform.SetParent(Camera.main.transform); // หรือผู้เล่น
                 handTransform.localPosition = new Vector3(0.5f, -0.5f, 1f);

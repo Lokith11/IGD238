@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b00fa1858ef6442aadb8279d289895, type: 3}
+  m_Name: 007_T
+  m_EditorClassIdentifier: 
+  icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  id: 007
+  ids: 6
+  itemName: Pipe
+  description: gg
+  maxStack: 3
+  gamePrefab: {fileID: 3754460249420324079, guid: d68366fe243c7445c93b95099d8f79d2,
+    type: 3}
